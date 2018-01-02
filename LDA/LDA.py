@@ -51,7 +51,7 @@ plt.ylim(X2.min(), X2.max())
 for i, j in enumerate(np.unique(y_set)):
     plt.scatter(X_set[y_set == j, 0], X_set[y_set == j, 1],
                 c = ListedColormap(('red', 'green', 'blue'))(i), label = j)
-plt.title('Logistic Regression using PCA (Training set)')
+plt.title('Logistic Regression using LDA (Training set)')
 plt.xlabel('PC1')
 plt.ylabel('PC2')
 plt.legend()
@@ -69,7 +69,7 @@ plt.ylim(X2.min(), X2.max())
 for i, j in enumerate(np.unique(y_set)):
     plt.scatter(X_set[y_set == j, 0], X_set[y_set == j, 1],
                 c = ListedColormap(('red', 'green','blue'))(i), label = j)
-plt.title('Logistic Regression using PCA (Test set)')
+plt.title('Logistic Regression using LDA (Test set)')
 plt.xlabel('PC1')
 plt.ylabel('PC2')
 plt.legend()
