@@ -54,6 +54,8 @@ The Algorithms implemented are :
 * ##### Natural Language Processing
 
   * Using Bag of Words Model
+    * Yelp Review Classifier
+    * Restuarant Review Classifier
   * Using Tfidf Transformation(Text Processing)
 
 * ##### Mini Projects
