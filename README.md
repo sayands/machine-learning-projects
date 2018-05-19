@@ -43,7 +43,9 @@ The Algorithms implemented are :
   * Apriori
 
 * ##### XGBoost
-
+* ##### Reinforcement Learning
+  * Upper Confidence Bound Algorithm
+  * Thompson Sampling
 * ##### Recommender Systems
   * Item-based similarity Approach
   * Collaborative Filtering Approach
